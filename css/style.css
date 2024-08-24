@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Pacifico&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+/*
+Fuentes:
+Pacifico - Texto de Biografías.com
+Platypi - Texto de párrafos
+Cinzel - Texto de títulos
+*/
 
 * {
     padding: 0;
@@ -87,7 +93,14 @@ h1 {
 ul.datos {
     width: 50%;
     margin: 0 auto;
+}
+
+section {
     font-size: 1.3em;
+}
+
+section p {
+    margin: 20px 0px;
 }
 
 section.informacion {
@@ -132,9 +145,18 @@ section h3 {
 
 .img_horizontal {
     display: block;
-    width: 80%;
-    max-width: 100%;
+    width: 70%;
     margin: 0 auto;
+}
+
+.img_vertical {
+    display: block;
+    height: 600px;
+    margin: 0 auto;
+}
+
+div {
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 footer {
@@ -164,5 +186,4 @@ article.galeria img {
     width: 30%;
     background-color: #f4f3ee;
     margin-left: 2em;
-    height: 500px;
 }
