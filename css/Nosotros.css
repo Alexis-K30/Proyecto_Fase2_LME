@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Pacifico&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+/*
+Fuentes:
+Pacífico - Texto de Biografias.com
+Playpit - Texto de párrafos
+Cinzel - Texto de títulos
+*/
 
 * {
     padding: 0;
@@ -9,10 +15,6 @@
 body {
     font-family: "Platypi", serif;
     background-color: #8a817c;
-}
-
-p {
-    text-align: justify;
 }
 
 nav {
@@ -67,30 +69,7 @@ header {
     text-align: center;
 }
 
-#img_banner {
-    width: 100%;
-}
-
-section.general {
-    background-color: #f4f3ee;
-    margin-top: -5px;
-    padding: 30px;
-}
-
-h1 {
-    font-family: "Cinzel", serif;
-    font-size: 2em;
-    text-align: center;
-    margin-bottom: 5px;
-}
-
-ul.datos {
-    width: 50%;
-    margin: 0 auto;
-    font-size: 1.3em;
-}
-
-section.informacion {
+section {
     width: 85%;
     margin: 0 auto;
     background-color: #f4f3ee;
@@ -102,22 +81,7 @@ section.informacion {
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.40);
 }
 
-footer {
-    background-color: #e0afa0;
-    color: #fefefe;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-}
-
-body {
-    padding-bottom: 40px;
-}
-
-section h3 {
+h3 {
     background-color: #463F3A;
     margin: 2em auto 1em;
     padding: 0.3em;
@@ -130,41 +94,11 @@ section h3 {
     line-height: 1.3;
 }
 
-.img_horizontal {
-    display: block;
-    width: 80%;
-    max-width: 100%;
-    margin: 0 auto;
-}
-
-<<<<<<< HEAD:css/Neil_Armstrong.css
-footer {
-    background-color: #e0afa0;
-    color: #fefefe;
+p {
+    margin: 20px 0px;
+    font-size: 1.3em;
     text-align: center;
-    padding: 5px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
-=======
-.img_vertical {
-    display: block;
-    height: 600px;
-    margin: 0 auto;
->>>>>>> a4f2b690774b54012733c693b0c94fce33f41e21:css/Da_Vinci.css
-}
 
-@media(max-width: 768px) {
-    footer {
-        position: static;
-    }
-
-    section h3 {
-        margin-right: 2em;
-        font-size: 1.2em;
-    }
 }
 
 footer {
@@ -189,7 +123,7 @@ footer p {
 }
 
 .social-media {
-    margin-top: 10px;
+    margin-top: 10px; 
 }
 .social-icon {
     color: #fefefe;
@@ -203,9 +137,13 @@ footer p {
     transition: color 0.3s;
 }
 
-article.galeria img {
-    width: 30%;
-    background-color: #f4f3ee;
-    margin-left: 2em;
-    height: 500px;
+@media(max-width: 768px) {
+    footer {
+        position: static;
+    }
+
+    section h3 {
+        margin-right: 2em;
+        font-size: 1.2em;
+    }
 }

@@ -9,6 +9,7 @@
 body {
     font-family: "Platypi", serif;
     background-color: #8a817c;
+    padding-bottom: 40px;
 }
 
 p {
@@ -87,34 +88,24 @@ h1 {
 ul.datos {
     width: 50%;
     margin: 0 auto;
+    font-size: 1.2em;
+}
+
+section {
     font-size: 1.3em;
+}
+
+section p {
+    margin: 20px 0px;
 }
 
 section.informacion {
     width: 85%;
-    margin: 0 auto;
+    margin: 6em auto 3em;
     background-color: #f4f3ee;
-    margin-top: 6em;
-    margin-bottom: 3em;
-    padding: 30px;
+    padding: 30px 30px 50px;
     word-wrap: break-word;
-    padding-bottom: 50px;
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.40);
-}
-
-footer {
-    background-color: #e0afa0;
-    color: #fefefe;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-}
-
-body {
-    padding-bottom: 40px;
 }
 
 section h3 {
@@ -137,34 +128,14 @@ section h3 {
     margin: 0 auto;
 }
 
-<<<<<<< HEAD:css/Neil_Armstrong.css
-footer {
-    background-color: #e0afa0;
-    color: #fefefe;
-    text-align: center;
-    padding: 5px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
-=======
 .img_vertical {
     display: block;
     height: 600px;
     margin: 0 auto;
->>>>>>> a4f2b690774b54012733c693b0c94fce33f41e21:css/Da_Vinci.css
 }
 
-@media(max-width: 768px) {
-    footer {
-        position: static;
-    }
-
-    section h3 {
-        margin-right: 2em;
-        font-size: 1.2em;
-    }
+div {
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 footer {
@@ -201,6 +172,18 @@ footer p {
 .social-icon:hover {
     color: #c5b9b4;
     transition: color 0.3s;
+}
+
+
+@media(max-width: 768px) {
+    footer {
+        position: static;
+    }
+
+    section h3 {
+        margin-right: 2em;
+        font-size: 1.2em;
+    }
 }
 
 article.galeria img {

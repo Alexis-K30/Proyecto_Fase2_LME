@@ -137,36 +137,6 @@ section h3 {
     margin: 0 auto;
 }
 
-<<<<<<< HEAD:css/Neil_Armstrong.css
-footer {
-    background-color: #e0afa0;
-    color: #fefefe;
-    text-align: center;
-    padding: 5px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
-=======
-.img_vertical {
-    display: block;
-    height: 600px;
-    margin: 0 auto;
->>>>>>> a4f2b690774b54012733c693b0c94fce33f41e21:css/Da_Vinci.css
-}
-
-@media(max-width: 768px) {
-    footer {
-        position: static;
-    }
-
-    section h3 {
-        margin-right: 2em;
-        font-size: 1.2em;
-    }
-}
-
 footer {
     background-color: #e0afa0;
     color: #fefefe;
@@ -189,7 +159,7 @@ footer p {
 }
 
 .social-media {
-    margin-top: 10px;
+    margin-top: 10px; 
 }
 .social-icon {
     color: #fefefe;
@@ -201,6 +171,18 @@ footer p {
 .social-icon:hover {
     color: #c5b9b4;
     transition: color 0.3s;
+}
+
+
+@media(max-width: 768px) {
+    footer {
+        position: static;
+    }
+
+    section h3 {
+        margin-right: 2em;
+        font-size: 1.2em;
+    }
 }
 
 article.galeria img {

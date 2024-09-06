@@ -1,4 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Pacifico&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+<<<<<<< HEAD:css/style.css
+=======
+/*
+Fuentes:
+Pacifico - Texto de Biografías.com
+Platypi - Texto de párrafos
+Cinzel - Texto de títulos
+*/
+>>>>>>> a4f2b690774b54012733c693b0c94fce33f41e21:css/Galeria.css
 
 * {
     padding: 0;
@@ -9,6 +18,7 @@
 body {
     font-family: "Platypi", serif;
     background-color: #8a817c;
+    margin-bottom: 60px; 
 }
 
 p {
@@ -141,14 +151,15 @@ footer {
     background-color: #e0afa0;
     color: #fefefe;
     text-align: center;
-    padding: 5px 0;
-    position: fixed;
+    padding: 20px 0; 
     width: 100%;
-    bottom: 0;
-    left: 0;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    position: static; 
+    bottom: auto; 
+    left: auto; 
 }
 
+<<<<<<< HEAD:css/style.css
 @media(max-width: 768px) {
     footer {
         position: static;
@@ -158,6 +169,32 @@ footer {
         margin-right: 2em;
         font-size: 1.2em;
     }
+=======
+footer p {
+    margin: 4px 0;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-icon {
+    color: #fefefe;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #c5b9b4;
+    transition: color 0.3s;
+}
+article img {
+    width: 30%;
+    background-color: #f4f3ee;
+    margin-left: 1.5em;
+    height: 500px;
+>>>>>>> a4f2b690774b54012733c693b0c94fce33f41e21:css/Galeria.css
 }
 
 article.galeria img {
