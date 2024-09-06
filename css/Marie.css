@@ -134,10 +134,6 @@ section h3 {
     margin: 0 auto;
 }
 
-div {
-    background-color: rgba(0, 0, 0, 0.2);
-}
-
 footer {
     background-color: #e0afa0;
     color: #fefefe;
@@ -189,6 +185,6 @@ footer p {
 article.galeria img {
     width: 30%;
     background-color: #f4f3ee;
-    margin-left: 2em;
-    height: 500px;
+    margin-left: 1em;
+    height: 400px;
 }
