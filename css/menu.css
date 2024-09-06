@@ -59,7 +59,7 @@ h1 {
     justify-content: center;
     margin: 0;
     width: 100%;
-    padding: 0 20px; /* Añadido para separación de los bordes */
+    padding: 0 20px; 
 }
 
 .menu li {
@@ -107,7 +107,7 @@ h1 {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #463F3A;
+    background-color: #e9e2e2;
     padding: 10px;
     border-radius: 8px;
     width: 100%;
@@ -124,7 +124,7 @@ h1 {
     padding: 10px;
     border-radius: 5px;
     background-color: #e0afa0;
-    color: #463F3A;
+    color: #e0afa0;
 }
 
 .submenu li:hover {
@@ -135,12 +135,12 @@ footer {
     background-color: #e0afa0;
     color: #fefefe;
     text-align: center;
-    padding: 20px 0; /* Reducido desde 50px */
+    padding: 20px 0; 
     width: 100%;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
-    position: static; /* Cambiado desde fixed */
-    bottom: auto; /* Elimina la fijación en la parte inferior */
-    left: auto; /* Elimina la fijación en la parte izquierda */
+    position: static; 
+    bottom: auto; 
+    left: auto; 
 }
 
 footer p {
