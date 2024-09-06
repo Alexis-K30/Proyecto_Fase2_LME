@@ -136,3 +136,14 @@ footer p {
     color: #c5b9b4;
     transition: color 0.3s;
 }
+
+@media(max-width: 768px) {
+    footer {
+        position: static;
+    }
+
+    section h3 {
+        margin-right: 2em;
+        font-size: 1.2em;
+    }
+}
