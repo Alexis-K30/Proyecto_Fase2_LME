@@ -165,8 +165,6 @@ article.galeria img {
     background-color: #f4f3ee;
     margin-left: 2em;
     height: 500px;
-<<<<<<< HEAD
-=======
 }
 footer p {
     text-align: center;
@@ -187,5 +185,4 @@ footer p {
 .social-icon:hover {
     color: #c5b9b4;
     transition: color 0.3s;
->>>>>>> Guille
 }
