@@ -9,7 +9,6 @@
 body {
     font-family: "Platypi", serif;
     background-color: #8a817c;
-    padding-bottom: 40px;
 }
 
 p {
@@ -132,10 +131,6 @@ section h3 {
     display: block;
     height: 600px;
     margin: 0 auto;
-}
-
-div {
-    background-color: rgba(0, 0, 0, 0.2);
 }
 
 footer {
