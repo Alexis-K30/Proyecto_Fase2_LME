@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Pacifico&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+/*
+Fuentes:
+Pacífico - Texto de Biografias.com
+Playpit - Texto de párrafos
+Cinzel - Texto de títulos
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Platypi", serif;
+    background-color: #8a817c;
+}
+
+p {
+    text-align: justify;
+}
+
+nav {
+    background-color: #e0afa0;
+    height: 100px;
+}
+
+nav h2 {
+    font-family: "Pacifico", cursive;
+    font-size: 3em;
+    text-align: left;
+    height: 100px;
+    vertical-align: middle;
+    padding: 5px 0 0 40px;
+}
+
+nav ul {
+    float: right;
+    width: 956.188px;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    width: 172.109px;
+    margin: -21px -2px 0px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2e2118;
+}
+
+nav li a {
+    display: inline-block;
+    width: 100%;
+    padding: 12%;
+    font-weight: 700;
+    font-size: 1em;
+    position: relative;
+    top: 37px;
+    border-radius: 10px;
+}
+
+nav li a:hover {
+    background-color: #d18e79;
+    color: #eedbd6;
+}
+
+header {
+    background-color: #f4f3ee;
+    text-align: center;
+}
