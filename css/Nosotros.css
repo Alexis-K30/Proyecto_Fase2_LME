@@ -151,3 +151,13 @@ footer p {
         font-size: 1.2em;
     }
 }
+
+section{
+    position: relative;
+}
+
+section img{
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
