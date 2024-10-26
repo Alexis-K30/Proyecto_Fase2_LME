@@ -15,72 +15,131 @@ p {
     text-align: justify;
 }
 
+/*============ NAV ============*/
 nav {
     background-color: #e0afa0;
     height: 100px;
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: space-between; /* Distribuye el logo a la izquierda y el menú a la derecha */
+    padding: 0 40px;
 }
 
 nav h2 {
     font-family: "Pacifico", cursive;
     font-size: 3em;
-    text-align: left;
-    height: 100px;
-    vertical-align: middle;
-    padding: 5px 0 0 40px;
+    color: #2e2118;
+    text-align: left; /* Alinea el logo a la izquierda */
 }
 
 nav ul {
-    float: right;
-    width: 956.188px;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end; /* El menú se mantiene a la derecha */
+    flex-grow: 1; /* Hace que el menú ocupe el espacio restante */
 }
 
 nav li {
-    display: inline-block;
-    list-style: none;
-    width: 172.109px;
-    margin: -21px -2px 0px;
+    margin-left: 30px; /* Ajusta el espacio entre los elementos */
 }
 
 nav a {
     text-decoration: none;
     color: #2e2118;
-}
-
-nav li a {
-    display: inline-block;
-    width: 100%;
-    padding: 12%;
     font-weight: 700;
-    font-size: 1em;
-    position: relative;
-    top: 37px;
-    border-radius: 10px;
+    font-size: 1.2em;
 }
 
 nav li a:hover {
     background-color: #d18e79;
     color: #eedbd6;
+    border-radius: 10px;
+    padding: 5px 10px;
 }
 
-header {
-    background-color: #f4f3ee;
-    text-align: center;
+/* Estilos para PC (pantallas grandes) */
+@media only screen and (min-width: 1024px) {
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    nav h2 {
+        font-size: 3em;
+        text-align: left;
+        margin-right: auto; /* Asegura que el logo esté alineado a la izquierda */
+    }
+    nav ul {
+        justify-content: flex-end;
+    }
+    nav li {
+        margin-left: 30px;
+    }
 }
+
+/* Estilos para tablet (pantallas medianas) */
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    nav h2 {
+        font-size: 2.5em;
+        text-align: left;
+        margin-right: auto; /* Asegura que el logo esté alineado a la izquierda */
+    }
+    nav ul {
+        justify-content: flex-end;
+    }
+}
+
+/* Estilos para celulares (pantallas pequeñas) */
+@media only screen and (max-width: 768px) {
+    nav {
+        flex-direction: column; /* Cambia el menú a una columna */
+        justify-content: flex-start; /* Asegura que el logo quede arriba */
+        align-items: center;
+        height: auto;
+    }
+
+    nav h2 {
+        font-size: 2.5em;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    nav ul {
+        flex-direction: column; /* El menú será vertical */
+        align-items: center;
+        width: 100%;
+    }
+
+    nav li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    nav a {
+        font-size: 1.5em;
+    }
+}
+
 /*============ MAIN ============*/
 main.contenedor {
     display: flex;
     justify-content: space-evenly;
     padding: 2rem;
     background-color: #f4f3ee;
-    border-radius: 1rem;
+   
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 15PX;
+    margin-bottom: 15px;
 }
 
 section.container {
     width: 40%;
 }
-
 
 /*============ FORMULARIO ============*/
 .formulario {
@@ -184,16 +243,16 @@ footer {
     background-color: #e0afa0;
     color: #fefefe;
     text-align: center;
-    padding: 20px 0; 
+    padding: 20px 0;
     width: 100%;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
-    position: relative; 
+    position: relative;
     bottom: 0;
     left: 0;
-    display: flex; 
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 @media (max-width: 768px) {
@@ -208,20 +267,20 @@ footer {
     }
 }
 
-
 footer p {
     text-align: center;
     margin: 5px 0;
-    font-size: 1em; 
+    font-size: 1em;
 }
 
 .social-media {
-    margin-top: 10px; 
+    margin-top: 10px;
 }
+
 .social-icon {
     color: #fefefe;
     font-size: 1.5rem;
-    margin: 0 10px; 
+    margin: 0 10px;
     text-decoration: none;
 }
 
@@ -229,5 +288,3 @@ footer p {
     color: #c5b9b4;
     transition: color 0.3s;
 }
-
-
