@@ -18,17 +18,55 @@ body {
 }
 
 header {
-    background-color: #e0afa0;
-    padding: 40px 0;
+    background-color: #f4f3ee;
     text-align: center;
-    width: 100%;
 }
 
-.title-box {
+nav {
     background-color: #e0afa0;
+    height: 100px;
+}
+
+nav h2 {
+    font-family: "Pacifico", cursive;
+    font-size: 3em;
+    text-align: left;
+    height: 100px;
+    vertical-align: middle;
+    padding: 5px 0 0 40px;
+}
+
+nav ul {
+    float: right;
+    width: 956.188px;
+}
+
+nav li {
     display: inline-block;
-    padding: 20px 40px;
+    list-style: none;
+    width: 172.109px;
+    margin: -21px -2px 0px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2e2118;
+}
+
+nav li a {
+    display: inline-block;
+    width: 100%;
+    padding: 12%;
+    font-weight: 700;
+    font-size: 1em;
+    position: relative;
+    top: 37px;
     border-radius: 10px;
+}
+
+nav li a:hover {
+    background-color: #d18e79;
+    color: #eedbd6;
 }
 
 h1 {
@@ -39,15 +77,32 @@ h1 {
 }
 
 .menu-container {
-    background-color: #e9e2e2;
-    padding: 50px 20;
+    background-image: url(../images/Index/Fondo.png);
+    background-repeat: repeat-y;
+    padding: 50px 20px;
     border-radius: 10px;
     margin: 0 auto;
     max-width: 100%;
     width: 100%;
-    flex: 1;
-    display: flex;
-    align-items: center;
+}
+
+div.intro {
+    width: 80%;
+    margin: 6rem auto;
+    padding: 5%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+
+.intro>h2 {
+    margin: 2rem auto;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.intro>p {
+    margin: 2rem auto;
+    font-size: 1.2rem;
 }
 
 .menu {
@@ -57,14 +112,14 @@ h1 {
     grid-template-columns: repeat(4, 1fr);
     gap: 40px;
     justify-content: center;
-    margin: 0;
+    margin: 3rem 0;
     width: 100%;
     padding: 0 20px; 
 }
 
 .menu li {
     position: relative;
-    background-color: #bebdb9;
+    background-color: #463F3A;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -88,17 +143,17 @@ h1 {
 }
 
 .menu li img {
-    max-width: 80%;
-    max-height: 150px;
-    margin-bottom: 10px;
+    max-width: 256px;
+    margin: 3rem auto;
 }
 
 .menu li span {
     margin-top: 10px;
+    color: #fff;
 }
 
 .menu li:hover {
-    background-color: #c5b9b4;
+    background-color: #8A817C;
     transform: scale(1.05);
 }
 
@@ -159,7 +214,7 @@ footer p {
 }
 
 .social-icon:hover {
-    color: #c5b9b4;
+    color: #463F3A;
     transition: color 0.3s;
 }
 
