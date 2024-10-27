@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Pacifico&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+/*
+Fuentes:
+Pacífico - Texto de Biografias.com
+Playpit - Texto de párrafos
+Cinzel - Texto de títulos
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Platypi", serif;
+    background-color: #8a817c;
+}
+
+section p {
+    text-align: justify;
+}
+
+nav {
+    background-color: #e0afa0;
+    height: 100px;
+}
+
+nav h2 {
+    font-family: "Pacifico", cursive;
+    font-size: 3em;
+    text-align: left;
+    height: 100px;
+    vertical-align: middle;
+    padding: 5px 0 0 40px;
+}
+
+nav ul {
+    float: right;
+    width: 956.188px;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    width: 172.109px;
+    margin: -21px -2px 0px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2e2118;
+}
+
+nav li a {
+    display: inline-block;
+    width: 100%;
+    padding: 12%;
+    font-weight: 700;
+    font-size: 1em;
+    position: relative;
+    top: 37px;
+    border-radius: 10px;
+}
+
+nav li a:hover {
+    background-color: #d18e79;
+    color: #eedbd6;
+}
+
+header {
+    background-color: #f4f3ee;
+    text-align: center;
+}
+
+section {
+    position: relative;
+    width: 85%;
+    margin: 0 auto;
+    background-color: #f4f3ee;
+    margin-top: 4em;
+    margin-bottom: 3em;
+    padding: 30px;
+    word-wrap: break-word;
+    padding-bottom: 0px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.40);
+}
+
+section p {
+    position: absolute;
+    bottom: 125px;
+    margin-left: 12em;
+    margin-right: 1em;
+}
+
+.Curie, .Tesla, .Armstrong{
+    bottom: 100px;
+}
+
+.Segundo{
+    bottom: 110px;
+}
+
+section h3 {
+    background-color: #463F3A;
+    margin: 0em 12em 0em;
+    padding: 0.3em;
+    color: #f4f3ee;
+    border-radius: 5px;
+    font-family: "Cinzel", serif;
+    font-size: 1em;
+    width: 30%;
+    text-align: center;
+    line-height: 1.3;
+}
+
+section img{
+    width: 15%;
+    height: 220px;
+    position: relative;
+    bottom: 30px;
+    border-radius: 5px;
+}
+
+.MaCu, .NiTe, .NeAm{
+    height: 220px;
+}
+
+section a{
+    padding: 15px 30px 15px 30px;
+    background-color: #e0afa0;
+    color: #f4f3ee;
+    position: relative;
+    left: 25px;
+    bottom: 50px;
+    border-radius: 7px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+section a:hover{
+    background-color: #d18e79;
+    color: white;
+    transition: 0.5s;
+}
+
+section.Marie a, section.Nikola a, section.Neil a{
+    bottom: 48px;
+}
+
+footer {
+    background-color: #e0afa0;
+    color: #fefefe;
+    text-align: center;
+    padding: 20px 0; 
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    position: static; 
+    bottom: auto; 
+    left: auto; 
+}
+
+footer p {
+    margin: 4px 0;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-icon {
+    color: #fefefe;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #c5b9b4;
+    transition: color 0.3s;
+}
+
+@media screen and (max-width: 480px){
+    nav {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        position: relative; /* Asegura que los hijos como h2 sean relativos al nav */
+    }
+    
+    nav h2 {
+        font-size: 2.5em;
+        text-align: center;
+        position: absolute;
+        top: 2.5px; /* Ajusta este valor según el espacio que quieras */
+        width: 100%;
+        margin: 0;
+        z-index: 1;
+    }
+    
+    nav ul {
+        margin-top: 30px; /* Asegura que el menú no quede detrás del h2 */
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        list-style-type: none;
+    }
+    
+    nav li {
+        display: block;
+        margin: 5px 0;
+        width: 100%;
+    }
+    
+    nav li a {
+        padding: 7px 0;
+        width: 90%;
+        font-size: 1em;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        top: 20px;
+        z-index: 2;
+    }
+    section p{
+        position: relative;
+        bottom: 0px; left: 0px; right: 0px; top: 40px;
+        display: block;
+        margin-left: 1em;
+    }
+
+    section img{
+        display: block;
+        position: relative;
+        bottom: -13px;
+        left: 25%;
+        width: 50%;
+    }
+
+    section a{
+        position: relative;
+        top: 150px;
+        left: 13%;
+    }
+
+    section h3{
+        position: relative;
+        width: 60%;
+        right: -20%;
+        margin: 0;
+    }
+
+    section{
+        padding-bottom: 12em;
+    }
+}
+/* Vista de tablet */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    nav {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        position: relative; /* Asegura que los hijos como h2 sean relativos al nav */
+    }
+    
+    nav h2 {
+        font-size: 2.5em;
+        text-align: center;
+        position: absolute;
+        top: 2.5px; /* Ajusta este valor según el espacio que quieras */
+        width: 100%;
+        margin: 0;
+        z-index: 1;
+    }
+    
+    nav ul {
+        margin-top: 30px; /* Asegura que el menú no quede detrás del h2 */
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        list-style-type: none;
+    }
+    
+    nav li {
+        display: block;
+        margin: 5px 0;
+        width: 100%;
+    }
+    
+    nav li a {
+        padding: 7px 0;
+        width: 90%;
+        font-size: 1em;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        top: 20px;
+        z-index: 2;
+    }
+    section p{
+        position: relative;
+        bottom: 0px; left: 0px; right: 0px; top: 40px;
+        display: block;
+        margin-left: 1em;
+    }
+
+    section img{
+        display: block;
+        position: relative;
+        bottom: -13px;
+        left: 33%;
+        width: 30%;
+    }
+
+    section a{
+        position: relative;
+        top: 150px;
+        left: 33%;
+    }
+
+    section{
+        padding-bottom: 12em;
+    }
+
+    section h3{
+        position: relative;
+        width: 40%;
+        right: -28%;
+        margin: 0px;
+    }
+}
+
+/* Vista de computadora pequeña */
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    nav {
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 35px;
+        padding-bottom: 0;
+    }
+
+    nav h2 {
+        font-size: 2.7em;
+        text-align: center;
+        padding: 10px 0;
+        position: relative;
+        bottom: 3.5em;
+    }
+
+    nav ul {
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        list-style-type: none;
+    }
+
+    nav li {
+        display: inline-block;
+        margin: 5px 10px;
+    }
+
+    nav li a {
+        padding: 10px;
+        font-size: 1.1em;
+    }
+
+    section p {
+        position: absolute;
+        bottom: 120px; left: 0px; right: 0px;
+        margin-left: 20%;
+        font-size: 0.8em;
+    }
+
+    .Segundo .Pablo, .Curie{
+        bottom: 110px;
+    }
+
+    .Tesla, .Armstrong {
+        bottom: 100px;
+    }
+
+    section h3{
+        position: relative;
+        right: 23px;
+    }
+}
+
+@media screen and (min-width: 1048px) and (max-width: 1200px) {
+    nav h2{
+        position: relative;
+        bottom: 2.8em;
+    }
+}
+/* Vista de computadora grande */
+@media screen and (min-width: 1201px) and (max-width: 1300px){
+    nav h2{
+        font-size: 200%;
+        position: relative;
+        top: 13px;
+    }
+
+    section p{
+        bottom: 105px;
+    }
+
+    .Curie, .Tesla, .Armstrong{
+        bottom: 95px;
+    }
+
+    .Tesla{
+        bottom: 89px;
+    }
+}

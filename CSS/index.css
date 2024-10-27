@@ -156,20 +156,6 @@ div.intro {
     transform: scale(1.05);
 }
 
-.submenu {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #e9e2e2;
-    padding: 10px;
-    border-radius: 8px;
-    width: 100%;
-    max-height: 200px;
-    overflow-y: auto;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-}
-
 .menu li:hover .submenu {
     display: block;
 }
