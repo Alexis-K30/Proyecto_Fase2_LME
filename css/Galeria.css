@@ -258,39 +258,36 @@ article {
     }
 
     nav h2 {
+        font-size: 2.7em;
+        text-align: center;
+        padding: 10px 0;
         position: relative;
-        bottom: 2.5em;
+         bottom: 3.5em ;
+        
+    }
+
+    nav ul {
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        list-style-type: none;
+    }
+
+    nav li {
+        display: inline-block;
+        margin: 5px 10px;
+    }
+
+    nav li a {
+        padding: 10px;
+        font-size: 1.1em;
     }
 
     article.galeria img{
         width: 30%;
         margin-left: 4em;
         height: 200px;
-    }
-
-    nav ul {
-        display: flex;
-        justify-content: center; /* Centrar los elementos del menú */
-        padding: 0; /* Eliminar padding */
-        margin: 10px 0;
-    }
-
-    nav li {
-        list-style: none; /* Eliminar puntos de la lista */
-        margin: 0 10px; 
-    }
-
-    nav a {
-        text-decoration: none;
-        color: #2e2118;
-        display: block; /* Permite que el área clickeable sea más grande */
-        padding: 10px; /* Espacio alrededor del texto */
-        font-weight: 700;
-    }
-
-    nav li a {
-        padding: 10px;
-        font-size: 1.1em;
     }
     
     section h3 {
@@ -321,5 +318,11 @@ article {
         position: relative;
         top: 13px;
         font-size: 200%;
+    }
+}
+
+@media screen and (min-width: 1048px) and (max-width: 1200px){
+    nav h2{
+        bottom: 2.5em;
     }
 }
