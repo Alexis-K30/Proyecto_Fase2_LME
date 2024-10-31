@@ -421,3 +421,32 @@ footer p {
         bottom: 89px;
     }
 }
+
+@media screen and (min-width: 1580px) and (max-width:1800px){
+    section p{
+        left: 50px;
+        font-size: 1.1em;
+    }
+
+    section h3{
+        position: relative;
+        left: 40px;
+    }
+}
+
+@media screen and (min-width: 1801px){
+    section p{
+        left: 55px;
+        bottom: 104px;
+        font-size: 1.3em;
+    }
+
+    .Tesla, .Armstrong{
+        bottom: 84px;
+    }
+
+    section h3{
+        position: relative;
+        left: 80px;
+    }
+}
